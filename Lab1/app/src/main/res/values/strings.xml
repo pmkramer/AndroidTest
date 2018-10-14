@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="patrick_kramer">Patrick Kramer</string>
+    <string name="festive_toast">Festive Toast</string>
+    <string name="toggle_view">Toggle View</string>
+    <string name="change_text">change text</string>
+    <string name="long_click">Long Click</string>
+</resources>
