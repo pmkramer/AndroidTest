@@ -1,0 +1,16 @@
+language: java
+dist: trusty
+
+addons:
+        sonarcloud:
+                organization: "307group" 
+                token:
+                        secure:  "G2IHuWjiNujh7G73yRu4ayBuOe0SSRHW1GOPN2z14wD6eHMQ1s87DOwTM1+hsRZloyc77yrDtsE7bHp4JMAnVlENDKEkD6iAvFxEMhkzQzQrvxMdUa1+BLVvm85xHpXs9VySrrD7zcjxMYLMqU7Pl9daWMVIsu1Bt0GMNFr2hTSed7HlPwaf+3OjVoe/07ts/Uotv1uOiOfrjO3/mDqd03iedw+X7Dj+iA1mwDEZuGfePuw4xvnBnxu+jCqktJwfs17a3IZ+kcgOmdFJ0xfwf+lyqdvpLfEGUZU5gnUJSwJS93Xp2bc58PBcGHjL6A3alcHfMGRc4IKApZp7nCKI9nhbgottVeq8vGXePwkK/5vhjYrOKx7qT8y/tl4sI84MU120DaGX9kaTaflLLL9mNEbf8YDxo0dIHZd13nEKXYTUB+dEvi35gbI5Gonorvn/F0OZF1OOJ/BtxbkBtrRYlT9YCAhc/Hxzs+2GQ9GTjBFUBDWd8DTw363c+H4xpmHSWd08fZFJsGhOg8iC0E4NIzakWiy4MXBJQE2fRxDpYhylCdlbDE0cgZG8pot6Y2r2mRlDAiYe/1c03d7TQkQ54He3u9CJt6kUXwARP2B13V85eWfCNsATpMhx3iYjMeY/pLn1ml0McCBUsUThaJDfj9BJ8V0H3F7dd6ecIaqGZPY="
+
+script:
+        - sonar-scanner
+
+jdk:
+        - oraclejdk8
+
+
